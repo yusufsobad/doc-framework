@@ -25,7 +25,7 @@
                     <li class="list-inline-item"><a href="#"><i class="fab fa-product-hunt fa-fw"></i></a></li>
                 </ul>
                 //social-list -->
-            </div> -->
+            <!-- </div> -->
             <!--//docs-top-utilities-->
         </div>
         <!--//container-->

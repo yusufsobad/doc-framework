@@ -18,7 +18,7 @@
                 </li>
                 <code>$protected static $table = 'nama_blueprint';</code>
                 <li><b>Post</b> digunakan untuk memilih data yang akan digunakan.</li>
-                <code>protected static $post = 'nama_meta';</code>
+                <code>protected static $post = 'nama_var';</code>
                 <li><b>Lokasi view</b> digunakan untuk menentukan nama file view yang digunakan sebagai view.</li>
                 <code>$protected static $loc_view = 'lokasi_view';</code>
             </ul>

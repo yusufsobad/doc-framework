@@ -15,16 +15,14 @@
             </h2>
             <div id="index" class="collapse show" aria-labelledby="index">
                 <div class="card-body">
-                    <!-- Digunakan sebagai tahap awal halaman. Sebelum itu, perlu memanggil file <b>function.php</b> dengan <i>require</i>. <br> -->
-                    <!-- <code>require dirname(__FILE__).'/function.php';</code> <br> -->
                     Function <b>_reg, _page, _script</b> wajib ada pada index.php.
                     <ul>
                         <li>
-                            Function _reg digunakan untuk menetapkan bahasa dan side menu yang digunakan <code>reg_hook('reg_language',array());
+                            Function _reg digunakan untuk menetapkan bahasa dan side menu yang digunakan <code>reg_hook('reg_language',array()); <br>
                                 sobad_asset::_sidemenu('nama_menu');</code>
                         </li>
                         <li>
-                            Function _page digunakan untuk load tampilan tema yang telah didefiniskan pada <a href="awal">konfigurasi awal</a> tadi.
+                            Function _page digunakan untuk load tampilan tema yang telah didefiniskan pada <a href="#awal">konfigurasi awal</a> tadi.
                         </li>
                         <li>
                             Function _script digunakan untuk memanggil CSS dan JS yang akan digunakan.

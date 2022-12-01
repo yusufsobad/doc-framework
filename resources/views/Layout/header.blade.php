@@ -17,14 +17,14 @@
     <script defer src="{{ asset('fontawesome/js/all.min.js') }}"></script>
 
     <!-- Plugins CSS -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css"> -->
     <link rel="stylesheet" href="{{ asset('plugins/simplelightbox/simple-lightbox.min.css') }}">
 
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="{{ asset('css/theme.css') }}">
 
     <!-- colorcodes -->
-    <link rel="stylesheet" href="{{ asset('scss/gists.scss') }}">
+    <!-- <link rel="stylesheet" href="{{ asset('scss/gists.scss') }}"> -->
     <link rel="stylesheet" href="{{ asset('css/gists.css') }}">
 
 </head>
