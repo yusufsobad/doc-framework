@@ -7,7 +7,7 @@
         <!--//docs-intro-->
     </header>
 
-	<section class="docs-section" id="form">
+	<section class="docs-section">
 		<div class="callout-block callout-block-success">
 			<h4 class="alert alert-primary">Title Label</h4>
 			<p>Ini adalah paket untuk menampilkan title dan data yang akan ditampilkan.</p>
@@ -24,7 +24,7 @@
 			<script src="https://gist.github.com/itaq/a7b717f160818d08f606d47b5e1b69ad.js"></script>
 			<ul>
 				<li><b>dots</b> : berupa booelan (true/false) untuk menampilkan navigations dots</li>
-				<li><b>img_url</b> : url image yang akan digunakan</li>
+				<li><b>data</b> : berisi url image yang akan digunakan</li>
 			</ul>
 		</div>
 	

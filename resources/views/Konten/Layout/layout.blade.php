@@ -7,12 +7,10 @@
         <!--//docs-intro-->
     </header>
 
-    <!-- @include('Konten.Template.table') -->
-    @include('Konten.Template.head-title')
-    @include('Konten.Template.portlet')
-    @include('Konten.Template.tabs')
-    @include('Konten.Template.button')
-    @include('Konten.Template.modal')
+    @include('Konten.Layout.grid')
+    @include('Konten.Layout.portlet')
+    @include('Konten.Layout.tabs')
+    @include('Konten.Layout.modal')
 
 </article>
 <!--//docs-article-->

@@ -14,7 +14,7 @@
         </ul>
         <hr>
 		<h5>Contoh:</h5>
-		<img class="my-2" style="max-width: 822px;" src="{{ asset('images/template/portlet.png') }}" alt="">
+		<img class="my-2" style="max-width: 500px;" src="{{ asset('images/template/portlet.png') }}" alt="">
 		<pre><code>$box = array(
     'ID'        => '', //optional
     'label'     => 'Project',

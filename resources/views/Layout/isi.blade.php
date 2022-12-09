@@ -5,11 +5,9 @@
 @include('Konten.Menu.menu')
 @include('Konten.Blueprint.blueprint')
 @include('Konten.Controller.kontrol')
-@include('Konten.Template.template')
+@include('Konten.Layout.layout')
+@include('Konten.Content.content')
 @include('Konten.Lanjutan.lanjutan')
-@include('Konten.table')
-@include('Konten.Grid.grid')
-@include('Konten.Component.component')
-@include('Konten.Form.form')
+@include('Konten.button')
 
 </div>
