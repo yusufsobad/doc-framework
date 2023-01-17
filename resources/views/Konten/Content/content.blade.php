@@ -10,8 +10,10 @@
     @include('Konten.Content.head-title')
     @include('Konten.Content.component')
     @include('Konten.Content.table')
+    @include('Konten.Content.accordion')
     @include('Konten.Content.form')
     @include('Konten.Content.repeater')
+    @include('Konten.Content.wizard')
 
 </article>
 <!--//docs-article-->

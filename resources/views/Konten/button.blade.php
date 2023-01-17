@@ -1,8 +1,4 @@
 <article class="docs-article" id="table">
-    <header class="docs-header">
-        <h1 class="docs-heading">Table</h1>
-</header>
-
         <section class="docs-section" id="button">
             <h2 class="section-heading">Button</h2>
             <p>Tampilan button untuk melakukan suatu action dapat menggunakan beberapa function berikut.</p>
@@ -38,25 +34,41 @@
                         <script src="https://gist.github.com/itaq/b5041e9eddeddd77ba9b3fa5ae73c285.js"></script>
                     </li>
                     <li>
-                        <h4><code>edit_button()</code></h4>
-                        <p>Tombol edit akan mengarah pada function <code>_modal_button($args, $modal)</code>.</p>
+                        <h4><code>edit_button($args)</code></h4>
+                        <p>Digunakan untuk mengarah ke form yang berada pada modal.</p>
+                        <!-- <p>Tombol edit akan mengarah pada function <code>_modal_button($args, $modal)</code>.</p> -->
                         <script src="https://gist.github.com/itaq/68d88914e70412447439438ee75462f5.js"></script>
                     </li>
                     <li>
-                        <h4><code>apply_button()</code></h4>
-                        <p>Tombol apply juga akan mengarah pada function <code>_modal_button($args, $modal)</code>. Perbedaannya adalah pada pendefinisian <code>$modal = 2</code></p>
+                        <h4><code>_modal_button($args)</code></h4>
+                        <p>Digunakan untuk mengarah ke modal.</p>
+                        <script src="https://gist.github.com/itaq/68d88914e70412447439438ee75462f5.js"></script>
+                    </li>
+                    <li>
+                        <h4><code>apply_button($args)</code></h4>
+                        <p>Digunakan untuk mengarah ke form yang berada pada modal yang terkhusus pada modal ke-2.</p>
+                        <!-- <p>Tombol apply juga akan mengarah pada function <code>_modal_button($args, $modal)</code>. Perbedaannya adalah pada pendefinisian <code>$modal = 2</code></p> -->
                         <script src="https://gist.github.com/itaq/a3353a61df1d38291bbb314e7042846c.js"></script>
                     </li>
                     <li>
                         <h4><code>print_button()</code></h4>
-                        <p>Digunakan untuk mencetak.</p>
+                        <p>Digunakan untuk mencetak sebagai PDF.</p>
                         <script src="https://gist.github.com/itaq/22da3696548d2a46f00de890069bfb99.js"></script>
                     </li>
                     <li>
                         <h4><code>hapus</code></h4>
-                        <p>Digunakan untuk menghapus.</p>
-                        <script src="https://gist.github.com/itaq/33196938d4a70126af02c6eb233f41ff.js"></script>
-                        <p>Pada dasarnya, penggunaan hapus_button menuju func <code>_click_button()</code></p>
+                        <p>Digunakan untuk menghapus data. Ada 2 function default yang tersedia, yaitu </p>
+                        <ul>
+                            <li>
+                                <b><code>_delete</code></b> : digunakan untuk menghapus data dari database
+                                <script src="https://gist.github.com/itaq/6700b8a34e0d263e7b5a93e3f51b6afa.js"></script>
+                            </li>
+                            <li>
+                                <b><code>_trash</code></b>: digunakan untuk memindahkan ke trash (data tidak hilang dari database)
+                                <script src="https://gist.github.com/itaq/33196938d4a70126af02c6eb233f41ff.js"></script>
+                            </li>
+                        </ul>
+                        <p>Pada dasarnya, penggunaan hapus_button dengan cara <code>hapus_button($hapus)</code>. Dan penggunaan ini akan menuju ke <code>_click_button</code>.</p>
                     </li>
                 </ul>
             </div>
