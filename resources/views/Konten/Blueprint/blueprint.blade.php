@@ -16,8 +16,11 @@
                 <li> <h5>Table utama </h5> 
                 Table ini digunakan untuk menyimpan data utama dan digunakan untuk mereferensikan data ke table lain.</li>
                 <li> <h5>Table meta</h5>
-                Table ini berisi beberapa baris data sebagai perpanjangan kolom dari table utama.
-                </li>
+                Table ini berisi beberapa baris data sebagai perpanjangan kolom dari table utama.</li>
+                <li> <h5>Table detail</h5>
+                Merupakan table yang mendeskripsikan detail dari suatu data dengan mereferensikannya data tertentu</li>
+                <li> <h5>Table join</h5>
+                Merupakan table yang digunakan untuk menggabungkan table satu, dengan table yang lainnya</li>
         </div>
         <!--//content-->
     </div>

@@ -2,9 +2,9 @@
     <h4>Layout</h4>
     <p>Pada pengaturan halaman atau layout terdapat 2 opsi, yaitu menggunakan <b> extends page </b> atau tidak.</p>
     <div class="callout-block callout-block-success">
-        <h5>Tanpa extends_page</h5>
+        <!-- <h5>Tanpa extends_page</h5>
         <script src="https://gist.github.com/itaq/47cbdfe2bd0770614e2f79e5d8f74438.js"></script>
-        <small>Jika tanpa extends page, perlu konfigurasi sidemenu.</small>
+        <small>Jika tanpa extends page, perlu konfigurasi sidemenu.</small> -->
         <h5 class="mt-3">Pakai extends_page</h5>
         <script src="https://gist.github.com/itaq/81e37b657729e94f223b031aa444fa73.js"></script>
         <small>Tidak perlu konfigurasi side menu, karena di dalam extends page sudah terdapat side menu.</small>
