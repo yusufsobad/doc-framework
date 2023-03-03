@@ -1,4 +1,4 @@
-<section class="docs-section" id="accordion">
+<section class="docs-section" id="akordion">
 	<div class="callout-block callout-block-success">
 		<h4 class="alert alert-primary">Table Accordion </h4>
         <p>Table accordion digunakan untuk menampilkan data turunan.</p>

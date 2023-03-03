@@ -1,8 +1,8 @@
 <section class="docs-section" id="kontrol-auto">
-    <h4>2. Kontrol Auto Include</h4>
+    <h4>1. Controller Auto Include</h4>
     <p>Pada cara ini, file controller dan view terletak pada suatu direktori yang berbeda.</p>
     <ul>
-        <li>Sama seperti cara <a href="#kontrol-native">native</a>, Controller terletak pada folder <b>_pages</b>.</li>
+        <li>Controller terletak pada folder <b>_pages</b>.</li>
         <li>Sedangkan view terletak pada folder <b>_views</b></li>
     </ul>
     <div class="callout-block callout-block-success">

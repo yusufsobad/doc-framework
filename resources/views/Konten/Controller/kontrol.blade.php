@@ -8,7 +8,7 @@
         <!--//docs-intro-->
     </header>
 
-    @include('Konten.Controller.native')
+    {{-- @include('Konten.Controller.native') --}}
     @include('Konten.Controller.auto-include')
     @include('Konten.Controller.extends-page')
     <!-- //section -->

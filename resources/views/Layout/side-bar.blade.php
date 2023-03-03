@@ -11,7 +11,8 @@
         <ul class="section-items list-unstyled nav flex-column pb-3">
             <li class="nav-item section-title"><a class="nav-link scrollto" href="#design-pattern"><span class="theme-icon-holder me-2"><i class="fas fa-server"></i></span>Design Pattern</a></li>
             <li class="nav-item"><a class="nav-link scrollto" href="#pattern-blueprint">Blueprint</a></li>
-            <li class="nav-item"><a class="nav-link scrollto" href="#kontrol">Controller</a></li>
+            <li class="nav-item"><a class="nav-link scrollto" href="#kontrol-auto">Controller</a></li>
+            <li class="nav-item"><a class="nav-link scrollto" href="#extends-page">Extend Page</a></li>
             <li class="nav-item"><a class="nav-link scrollto" href="#registry-pattern">Registry</a></li>
 
 
@@ -23,20 +24,20 @@
             <li class="nav-item"><a class="nav-link scrollto" href="#language">Language</a></li>
             <li class="nav-item"><a class="nav-link scrollto" href="#lain">Lain-lain</a></li>
 
-            
+
             <li class="nav-item section-title"><a class="nav-link scrollto" href="#routing"><span class="theme-icon-holder me-2"><i class="fas fa-server"></i></span>Routing</a></li>
-            
+
             <li class="nav-item section-title"><a class="nav-link scrollto" href="#menu"><span class="theme-icon-holder me-2"><i class="fas fa-server"></i></span>Menu</a></li>
             <li class="nav-item"><a class="nav-link scrollto" href="#side-menu">Side Menu</a></li>
             <!-- <li class="nav-item"><a class="nav-link scrollto" href="#child-menu">Child Menu</a></li> -->
             <!-- <li class="nav-items section-title"><a class="nav-link scrollto" href="#blueprint"><span class="theme-icon-holder me-2"><i class="fas fa-server"></i></span>Blueprint</a></li> -->
-            
+
             <li class="nav-item section-title"><a class="nav-link scrollto" href="#data"><span class="theme-icon-holder me-2"><i class="fas fa-server"></i></span>Koneksi Data</a></li>
-            
-            <li class="nav-item section-title"><a class="nav-link scrollto" href="#kontrol"><span class="theme-icon-holder me-2"><i class="fas fa-server"></i></span>Kontrol</a></li>
+
+            {{-- <li class="nav-item section-title"><a class="nav-link scrollto" href="#kontrol"><span class="theme-icon-holder me-2"><i class="fas fa-server"></i></span>Kontrol</a></li> --}}
             <!-- <li class="nav-item"><a class="nav-link scrollto" href="#kontrol-native">Kontrol Native</a></li> -->
             <!-- <li class="nav-item"><a class="nav-link scrollto" href="#kontrol-auto">Kontrol Auto</a></li> -->
-            <li class="nav-item"><a class="nav-link scrollto" href="#extends-page">Extends Page</a></li>
+            {{-- <li class="nav-item"><a class="nav-link scrollto" href="#extends-page">Extends Page</a></li> --}}
 
             <li class="nav-item section-title"><a class="nav-link scrollto" href="#layout"><span class="theme-icon-holder me-2"><i class="fas fa-server"></i></span>Layout</a></li>
             <li class="nav-item"><a class="nav-link scrollto" href="#grid">Grid</a></li>
@@ -48,7 +49,7 @@
             <li class="nav-item"><a class="nav-link scrollto" href="#head-title">Head Title</a></li>
             <li class="nav-item"><a class="nav-link scrollto" href="#component">Component</a></li>
             <li class="nav-item"><a class="nav-link scrollto" href="#table">Table</a></li>
-            <li class="nav-item"><a class="nav-link scrollto" href="#accordion">Accordion</a></li>
+            <li class="nav-item"><a class="nav-link scrollto" href="#akordion">Accordion</a></li>
             <li class="nav-item"><a class="nav-link scrollto" href="#form">Form</a></li>
             <li class="nav-item"><a class="nav-link scrollto" href="#repeater">Form Repeater</a></li>
             <li class="nav-item"><a class="nav-link scrollto" href="#wizard">Form Wizard</a></li>
@@ -60,12 +61,13 @@
             <li class="nav-item"><a class="nav-link scrollto" href="#inline-menu">Inline Menu</a></li>
 
             <li class="nav-item section-title"><a class="nav-link scrollto" href="#button"><span class="theme-icon-holder me-2"><i class="fas fa-server"></i></span>Button</a></li>
-            
+
             <li class="nav-item section-title"><a href="/docs/icons"><span class="theme-icon-holder me-2"><i class="fa fa-icons"></i></span>Icons</a></li>
 
-            
+
         </ul>
     </nav>
     <!--//docs-nav-->
 </div>
 <!--//docs-sidebar-->
+
