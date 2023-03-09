@@ -24,9 +24,11 @@
             <!--//content-->
         </div>
         <!--//callout-block-->
-        <h5>Contoh : </h5>
-        <script src="https://gist.github.com/itaq/a6237a9827101c7896c00c2e5ff03a39.js"></script>
+        <h5>Contoh Routing jika manual : </h5>
+        <script src="https://gist.github.com/itaq/a6237a9827101c7896c00c2e5ff03a39.js"></script> <br> <br>
 
+        <h5>Contoh Routing jika auto include : </h5>
+        <script src="https://gist.github.com/naufal10969/2cc005841fc8523d641ea20843127ff0.js"></script>
         <!--//docs-code-block-->
         </div>
         <!--//row-->

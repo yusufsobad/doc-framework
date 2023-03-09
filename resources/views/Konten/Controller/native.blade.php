@@ -1,6 +1,6 @@
 <section class="docs-section" id="kontrol-native">
-    <h4>1. Kontrol PHP Native</h4>
-    <p>Pada cara ini, file controller dan view terletak pada suatu direktori yang sama dalam folder _pages</p>
+    <h4>1. Kontrol PHP Auto Include</h4>
+    <p>Pada cara ini, file-file controller terletak pada satu direktori didalam folder tiap peran masing-masing. Setiap menu/fitur terdapat controllernya masing-masing</p>
     <div class="callout-block callout-block-success">
         <div class="content">
             Pada <a href="#routing">routing awal</a> tadi, <b>nama_routing</b> diarahkan pada <i>view</i> index.php pada folder peran.
@@ -27,7 +27,7 @@
                         <li>
                             Function _script digunakan untuk memanggil CSS dan JS yang akan digunakan.
                         </li>
-                        <li>Apabila memerlukan file yang lain, maka bisa menggunakan prinsip PHP dengan include manual seperti : <code>require 'file_1.php';</code></li>
+                        <li>Apabila memerlukan file yang lain, maka bisa menggunakan prinsip PHP dengan include manual seperti : <code>require 'nama_peran.php';</code></li>
                     </ul>
                 </div>
             </div>
@@ -78,7 +78,7 @@
         <div class="card mb-2">
             <h2 class="card-header" id="view">
                 <button class="btn btn-link" data-toggle="collapse" data-target="#view" aria-expanded="true" aria-controls="view">
-                    file_1.php
+                    nama_peran.php
                 </button>
             </h2>
             <div id="view" class="collapse show" aria-labelledby="view">

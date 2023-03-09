@@ -11,7 +11,7 @@
         <ul class="section-items list-unstyled nav flex-column pb-3">
             <li class="nav-item section-title"><a class="nav-link scrollto" href="#design-pattern"><span class="theme-icon-holder me-2"><i class="fas fa-server"></i></span>Design Pattern</a></li>
             <li class="nav-item"><a class="nav-link scrollto" href="#pattern-blueprint">Blueprint</a></li>
-            <li class="nav-item"><a class="nav-link scrollto" href="#kontrol-auto">Controller</a></li>
+            <li class="nav-item"><a class="nav-link scrollto" href="#kontrol-native">Controller</a></li>
             <li class="nav-item"><a class="nav-link scrollto" href="#extends-page">Extend Page</a></li>
             <li class="nav-item"><a class="nav-link scrollto" href="#registry-pattern">Registry</a></li>
 
