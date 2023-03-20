@@ -3,7 +3,7 @@
     <p>Pada cara ini, file-file controller terletak pada satu direktori didalam folder tiap peran masing-masing. Setiap menu/fitur terdapat controllernya masing-masing</p>
     <div class="callout-block callout-block-success">
         <div class="content">
-            Pada <a href="#routing">routing awal</a> tadi, <b>nama_routing</b> diarahkan pada <i>view</i> index.php pada folder peran.
+            Pada <a href="#routing">routing awal</a> tadi, file {namarouting} diarahkan pada <i>view</i> index.php pada folder {namaperan}.
         </div>
     </div>
     <div class="accordion" id="accordion">
