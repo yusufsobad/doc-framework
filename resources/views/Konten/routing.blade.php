@@ -12,11 +12,11 @@
                 <ul>
                     <p>Routing ini berbentuk array yang terdiri dari 3 hal yaitu home, view, dan page.
                         <br>
-                        <li><b>namarouting</b> disesuaikan dengan role (jabatan), yang nantinya juga digunakan untuk memakai hak akses login.</li>
+                        <li><b>namarouting</b> disesuaikan dengan role (jabatan), yang nantinya juga digunakan untuk memakai hak akses login. (penamaan tidak harus sama persis dengan {namaperan} )</li>
                         <li><b>home</b> berupa boolean (true/false) yang digunakan untuk menentukan apakah page tersebut menjadi homepage/tampilan awal sistem tersebut.</li>
                         <li><b>view</b> digunakan untuk menentukan lokasi include file yang ada di<b> coding/_pages </b>. Jika nama file <i>index.php</i> maka tidak diperlukan lagi. Karena sudah ter-include otomatis</li>
                         <i><small>Apabila tampilan default bernama index.php, maka tidak diperlukan.</small></i>
-                        <li><b>page</b> digunakan untuk memanggil class yang akan dijalankan pada halaman.
+                        <li><b>page</b> digunakan untuk memanggil class yang akan dijalankan pada halaman. Class yang dipanggil berasal dari _pages/namaperan/index.php
                     </p>
                     </li>
                 </ul>

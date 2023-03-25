@@ -1,16 +1,18 @@
 <section class="docs-section" id="table">
     <h2 class="section-heading">Table</h2>
-    <p>Tampilan tabel dapat diatur pada <code>sobad_table</code> </p>
+    <p>Untuk membuat tabel diperlukan sebuah function yang bernama <code>sobad_table</code> </p>
 
     <div class="callout-block callout-block-success">
-        <h5 class="mt-2">Tabel</h5>
-        <script src="https://gist.github.com/itaq/e1db214ac8a3d5561d09f2b5f3e90e1c.js"></script>
+        <h5 class="mt-2">Tabel Basic</h5>
+        <p>Pembuatan tabel sederhana dapat dilakukan dengan memasukkan kode seperti dibawah ini. <i>Kode ini bersifat mutlak, tidak ada bagian yang dapat diganti/disesuaikan.</i></p>
+        <p><i>layout_coba dapat diganti dengan nama class lain</i></p>
+        <script src="https://gist.github.com/naufal10969/09caeacaa29eb8b37a8e0ee2faec9e0d.js"></script>
 
     </div>
 
     <div class="callout-block callout-block-success">
         <h5 class="mt-2">Tabel dengan dropdown search</h5>
-        <script src="https://gist.github.com/itaq/1c356755b15ff654fa5b1dd5af609794.js"></script>
+        <script src="https://gist.github.com/naufal10969/e557536d03e36fddabbe101388da0163.js"></script>
         <ul>
             <li><b>data</b> : berisi text pencarian</li>
             <li><b>type</b> : data lemparan $_POST[‘type’]</li>

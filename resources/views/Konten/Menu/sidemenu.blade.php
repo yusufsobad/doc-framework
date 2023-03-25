@@ -1,6 +1,8 @@
 <section class="docs-section" id="side-menu">
     <h2 class="section-heading">Side Menu</h2>
     <p>Setiap session user memiliki side menu masing-masing yang berbeda. Konfigurasi menu ini terletak pada folder <b>Coding/_sidemenu</b> Maka dari itu perlu beberapa konfigurasi</p>
+    <p>Konfigurasi side menu</p>
+    <script src="https://gist.github.com/naufal10969/4ade8b743d752276deff0ffcb1b1a02a.js"></script>
     <div class="callout-block callout-block-success">
         <div class="content">
             <ul>
@@ -9,9 +11,10 @@
                     <li><b>status</b> untuk menentukan apakah halaman tersebut yang akan diakses pertama kali atau bukan. Diisi 'active' bila menjadi halaman pertama yang diakses. Jika tidak, tidak diisi.</li>
                     <li><b>icon</b> digunakan untuk mengambil icon mana yang akan dipakai. List icon dapat dilihat pada <a href="/icons">Daftar Icons</a></li>
                     <li><b>label</b> digunakan sebagai nama side menu.</li>
+                    <li><b>loc</b> loc digunakan untuk memanggil lokasi file controller yang dituju, didalam folder _pages</li>
                     <li><b>func</b> digunakan untuk memanggil function yang akan dijalankan. Pada nilai function ini, terdapat 3 macam penggunaannya :</p>
                     <ol>
-                        <li><b>nama_class</b> : digunakan untuk memanggil class yang akan digunakan.</li>
+                        <li><b>namaclass</b> : digunakan untuk memanggil class yang akan digunakan. harus sama dengan nama class yang dituju. lokasi file sama dengan loc</li>
                         <li><b>#</b> : digunakan sebagai menu yang tidak memerlukan pemanggilan class.</li>
                         <li><b>''</b> atau string kosong : digunakan untuk menu yang disable. </li>
                     </ol>
@@ -26,8 +29,8 @@
         <!--//content-->
     </div>
     <!--//callout-block-->
-    <p>Konfigurasi side menu :</p>
-    <script src="https://gist.github.com/itaq/cecde72bebe20bf5d392c77a4abeb531.js"></script>
+    <!-- <p>Konfigurasi side menu :</p>
+    <script src="https://gist.github.com/itaq/cecde72bebe20bf5d392c77a4abeb531.js"></script> -->
 
 </section>
 <!--//section-->

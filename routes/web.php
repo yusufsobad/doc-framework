@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/doc-framework/table', function(){
+    return view('ini_tabel');
+});
+
 Route::get('/docs/icons', function () {
     return view('icons');
 });

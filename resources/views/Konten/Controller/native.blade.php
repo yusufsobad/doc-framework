@@ -1,11 +1,11 @@
 <section class="docs-section" id="kontrol-native">
     <h4>1. Kontrol PHP Auto Include</h4>
-    <p>Pada cara ini, file-file controller terletak pada satu direktori didalam folder tiap peran masing-masing. Setiap menu/fitur terdapat controllernya masing-masing</p>
-    <div class="callout-block callout-block-success">
+    <p>Pada cara ini, file controller terletak pada satu direktori didalam folder tiap peran masing-masing. Setiap menu/fitur terdapat controllernya masing-masing</p>
+    <!-- <div class="callout-block callout-block-success">
         <div class="content">
-            Pada <a href="#routing">routing awal</a> tadi, file {namarouting} diarahkan pada <i>view</i> index.php pada folder {namaperan}.
+            Pada <a href="#routing">routing awal</a> tadi, {namarouting} diarahkan pada <i>file</i> index.php pada folder {namaperan}.
         </div>
-    </div>
+    </div> -->
     <div class="accordion" id="accordion">
         <div class="card mb-2">
             <h2 class="card-header" id="index">
