@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/doc-framework/table', function(){
+Route::get('table', function(){
     return view('ini_tabel');
 });
 

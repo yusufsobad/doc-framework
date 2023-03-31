@@ -64,7 +64,7 @@
 
             <li class="nav-item section-title"><a class="nav-link scrollto" href="#button"><span class="theme-icon-holder me-2"><i class="fas fa-server"></i></span>Button</a></li>
 
-            <li class="nav-item section-title"><a href="/docs/icons"><span class="theme-icon-holder me-2"><i class="fa fa-icons"></i></span>Icons</a></li>
+            <li class="nav-item section-title"><a href="docs/icons"><span class="theme-icon-holder me-2"><i class="fa fa-icons"></i></span>Icons</a></li>
 
 
         </ul>
